@@ -3,14 +3,14 @@
 # Gabriel Rivera
 # CYB 125-Z1
 # Fall 2026
-
+ 
 
 LOGFILE="auth.log"
 REPORT="security_report.txt"
 
 echo "Linux Security Login Report"
 echo "==========================="
-
+v
 # Step 1: Check whether the log file exists
 if [ ! -f "$LOGFILE" ]; then
    echo "$LOGFILE does not exist. Make sure it is in the current folder."
